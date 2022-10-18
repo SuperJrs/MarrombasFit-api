@@ -24,7 +24,6 @@ Esse documento tem como objetivo padronizar a nomenclatura e uso de branchs no r
 <prefixo>/#numero_da_issue
 ```
 
-Não esquecer de dividir as palavras(sempre minúsculas) do assunto com "-".
 Exemplo: 
 ```
 feature/#22
