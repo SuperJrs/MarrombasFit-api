@@ -1,9 +1,9 @@
 # Guia de contribuição
 
-Antes de fazer qualquer alteração no repositório, crie uma issue e se responsabilize por essa alteração. Atente-se a política de branchs e a política de commits.
+Antes de fazer qualquer alteração no repositório, crie uma issue e se responsabilize por essa alteração. Atente-se a [política de branchs](https://github.com/SuperJrs/MarrombasFit-api/blob/main/docs/politicas/politicas_de_branch.md) e a [política de commits](https://github.com/SuperJrs/MarrombasFit-api/blob/main/docs/politicas/politica_de_commit.md).
 
 
-## Criação de Issues
+## 1. Criação de Issues
 
 Ao criar issues atente-se as seguintes questões:
 
@@ -17,7 +17,7 @@ Ao criar issues atente-se as seguintes questões:
 - Adicione um Estimate segundo as definições descritas nesse documento
 
 
-## Definição de Estimate
+## 2. Definição de Estimate
 
 Deve-se definir uma estimativa de dificuldade (pontuação) à issue em questão, levando em consideração os seguintes critérios:
 
@@ -31,7 +31,7 @@ Deve-se definir uma estimativa de dificuldade (pontuação) à issue em questão
 | 13          | Tarefa muito complexa, provavelmente levará mais que uma sprint, melhor rever e dividir em mais de uma issue  |
 
 
-## Criação de Pull Request
+## 3. Criação de Pull Request
 
 Ao fazer um pull request atente-se para:
 
@@ -39,7 +39,7 @@ Ao fazer um pull request atente-se para:
 - Marcar um dos responsáveis para revisão
 
 
-## Histórico de versões
+## 4. Histórico de versões
 
 | Data       | Versão   | Descrição             | Autor                                                           |
 | :--------: | :------: | :-------------------: | :-------------------------------------------------------------: |

@@ -1,14 +1,14 @@
 # Código de Conduta
 
 
-## Propósito
+## 1. Propósito
 
 Temos como propósito desenvolver uma aplicação que seja capaz de auxiliar pessoas que buscam organizar seus treinos na academia e até mesmo aqueles que buscam controlar suas alimentações e etc.
 
 
-## Comportamentos
+## 2. Comportamentos
 
-### Comportamentos aceitáveis
+### 2.1 Comportamentos aceitáveis
 
 - Respeito por diferentes opiniões, pontos de vista e experiências.
 - Fazer e receber críticas sempre de maneira construtiva.
@@ -16,7 +16,7 @@ Temos como propósito desenvolver uma aplicação que seja capaz de auxiliar pes
 - Uso de linguagem acolhedora e inclusiva.
 - Demonstrar empatia com os membros da comunidade.
 
-### Comportamentos inaceitáveis
+### 2.2 Comportamentos inaceitáveis
 
 - Uso de linguagem ou imagem de conotação sexual.
 - Trollagem, insultos ou depreciação e ataques pessoais ou políticos.
@@ -25,17 +25,17 @@ Temos como propósito desenvolver uma aplicação que seja capaz de auxiliar pes
 - Qualquer outra conduta que, dentro do princípio da razoabilidade, pode ser considerada como não adequada em um ambiente profissional.
 
 
-## Responsabilidades
+## 3. Responsabilidades
 
 Os desenvolvedores do projeto devem manter os padrões estabelecidos e seguir à risca o código de conduta e políticas do repositório.
 
 
-## Referência
+## 4. Referência
 
 > ORGANIZATION FOR ETHICAL SOURCE. Contributor Covenant, 2014. Latest Version. Disponível em: https://www.contributor-covenant.org/version/2/1/code_of_conduct/. Acesso em: 18 de out. de 2022.
 
 
-## Histórico de versões
+## 5. Histórico de versões
 
 | Data       | Versão | Descrição                      | Autor(es)                                                        |
 | :--------: | :----: | :----------------------------: | :--------------------------------------------------------------: |
