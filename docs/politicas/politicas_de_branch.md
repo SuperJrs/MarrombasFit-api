@@ -1,0 +1,53 @@
+# Políticas de Branchs
+
+Padronização das branches no projeto. 
+
+## 1. Introdução
+
+Esse documento tem como objetivo padronizar a nomenclatura e uso de branchs no repositório. Como base foi utilizado o modelo de branchs do gitflow como mostrado na imagem a seguir.
+
+![](politica_de_branchs.png)
+
+
+## 2. Formato das Branchs
+
+### 2.1. Prefixos
+
+- ```master```
+- ```bugfix```
+- ```develop```
+- ```feature```
+
+### 2.2. Nomeclatura
+
+```
+<prefixo>/#numero_da_issue
+```
+
+Não esquecer de dividir as palavras(sempre minúsculas) do assunto com "-".
+Exemplo: 
+```
+feature/#22
+```
+
+## 3. Branches
+
+Esse repositório trabalhará com quatro tipos de branchs: master, bugfix, develop e feature.
+
+- **Branch master:** É a branch que contém código em nível de produção, ou seja, o código mais maduro existente na aplicação. Todo o código novo produzido eventualmente é juntado com a branch master, em algum momento do desenvolvimento;
+- **Branches bugfix:** São branches no qual são realizadas correções de bugs críticos encontrados em ambiente de produção, e que por isso são criadas a partir da branch master, e são juntadas diretamente com a branch master e com a branch develop, se estiver alguma ativa (pois os próximos deploys também devem receber correções de bugs críticos). Por convenção, essas branches tem o nome começando com bugfix/ e terminando com o próximo sub-número de versão (exemplo: bugfix/2.31.1);
+- **Branch develop:** É a branch que contém código em nível preparatório para o próximo deploy. Ou seja, quando features são terminadas, elas são juntadas com a branch develop, testadas (em conjunto, no caso de mais de uma feature), e somente depois as atualizações da branch develop passam pela fase de homologação e, se aprovadas, são juntadas com a branch master para produção. Sempre que uma correção for feita (bugfix) essa branch deverá ser atualizada;
+- **Branches feature:** São branches no qual são desenvolvidos recursos novos para o projeto em questão. Essas branches tem por convenção nome começando com feature/issue-description (exemplo: feature/#54) e são criadas a partir da branch develop (pois um recurso pode depender diretamente de outro recurso em algumas situações), e, ao final, são juntadas com a branch develop.
+
+
+## 4. Princípios:
+
+- As branches de bugfix e feature devem possuir uma issue.
+
+
+## 5. Histórico de versões
+
+| Data       | Versão | Descrição                      | Autor(es)                                               |
+| :--------: | :----: | :----------------------------: | :-----------------------------------------------------: |
+| 18/10/2022 |  0.1   | Criação da política de branch  | [Lameque Fernandes](https://github.com/LamequeFernandes)|
+
